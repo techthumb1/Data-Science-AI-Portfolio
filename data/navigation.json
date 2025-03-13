@@ -1,0 +1,11 @@
+{
+    "links": [
+      { "name": "Home", "path": "/" },
+      { "name": "Projects", "path": "/projects" },
+      { "name": "Blog", "path": "/blog" },
+      { "name": "Contact", "path": "/contact" },
+      { "name": "About", "path": "/about" },
+      { "name": "Skills", "path": "/skills" }
+    ]
+  }
+  

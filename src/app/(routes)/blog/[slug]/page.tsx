@@ -15,7 +15,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
       <p className="text-gray-500 text-center mt-2">{post.date}</p>
       <div className="flex justify-center mt-6">
         <Image
-          src={post.imageUrl}
+          src={post.imageUrl || '/default-image.jpg'}
           alt={post.title}
           width={800}  // Adjust width as needed
           height={450} // Adjust height as needed

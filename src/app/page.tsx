@@ -1,14 +1,11 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import Navbar from '@/components/common/Navbar'
-import Footer from '@/components/common/Footer'
 import Button from '@/components/common/Button'
 
 export default function HomePage() {
   return (
     <main className="min-h-screen bg-[#ECEFF4] text-[#333333]">
       {/* Header */}
-      <Navbar />
 
       {/* Hero Section */}
       <section className="container mx-auto px-6 py-20 text-center">
@@ -38,7 +35,7 @@ export default function HomePage() {
 
             {/* Project Card 1 */}
             <div className="bg-[#ECEFF4] shadow-md p-6 rounded-lg border border-gray-300 flex gap-6 items-center">
-              <Image src="/assets/images/brain_predictions.png" width={220} height={220} className="rounded-lg object-cover" alt="Project Image"/>
+              <Image src="/assets/images/brain-mri.png" width={220} height={220} className="rounded-lg object-cover" alt="Project Image"/>
               <div className="flex-1">
                 <h4 className="text-xl font-semibold">Medical AI Diagnostic Tool</h4>
                 <p className="text-sm text-gray-700 mt-2">An AI model identifying medical anomalies with precision.</p>
@@ -50,7 +47,7 @@ export default function HomePage() {
 
             {/* Project Card 2 */}
             <div className="bg-[#ECEFF4] shadow-md p-6 rounded-lg border border-gray-300 flex gap-6 items-center">
-              <Image src="/assets/images/math-design.png" width={220} height={220} className="rounded-lg object-cover" alt="Genomic Analysis Project"/>
+              <Image src="/assets/images/genomic.png" width={220} height={220} className="rounded-lg object-cover" alt="Genomic Analysis Project"/>
               <div className="flex-1">
                 <h4 className="text-xl font-semibold">Genomic Data Analysis</h4>
                 <p className="text-sm text-gray-700 mt-2">Leveraging AI for predicting genetic mutations and disease risk factors.</p>
@@ -59,14 +56,9 @@ export default function HomePage() {
                 </Link>
               </div>
             </div>
-
           </div>
         </div>
       </section>
-
-      {/* Footer */}
-      <Footer />
-      <div className="pb-6"></div> {/* Adds whitespace below footer */}
     </main>
   )
 }

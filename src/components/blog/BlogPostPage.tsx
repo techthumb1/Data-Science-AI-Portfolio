@@ -1,6 +1,7 @@
 import { notFound } from 'next/navigation';
 import blogPosts from '../../../data/blog-posts.json';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function BlogPostPage({ params }: { params: { slug: string } }) {
   const post = blogPosts.find((p) => p.slug === params.slug);
@@ -20,10 +21,9 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
           className="w-full rounded-lg my-6"
         />
       )}
-      <p className="text-lg text-gray-700">{post.content}</p>
-      <a href="/blog" className="mt-6 inline-block text-blue-600 hover:underline">
-        ← Back to Blog
-      </a>
+      <Link href="/blog">
+        <a className="mt-6 inline-block text-blue-600 hover:underline">← Back to Blog</a>
+      </Link>
     </main>
   );
 }
