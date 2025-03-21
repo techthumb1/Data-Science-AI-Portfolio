@@ -1,0 +1,69 @@
+:root {
+    --background: #ECEFF4;
+    --foreground: #171717;
+    --primary: #2C3E50;
+    --secondary: #ECEFF4;
+    --accent: #1C2833;
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background: #0a0a0a;
+      --foreground: #ededed;
+      --primary: #1C2833;
+      --secondary: #2C3E50;
+      --accent: #ECEFF4;
+    }
+  }
+  
+  body {
+    background: var(--background);
+    color: var(--foreground);
+    font-family: 'Playfair Display', serif;
+    transition: background 0.3s ease, color 0.3s ease;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header and Footer Styling */
+  header, footer {
+    background: var(--primary);
+    color: white;
+    padding: 15px 0;
+  }
+  
+  a {
+    color: var(--secondary);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: var(--accent);
+  }
+  
+  /* Standardized Card Styling */
+  .card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+  }
+  
+  button {
+    background: var(--accent);
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: all 0.2s ease-in-out;
+    display: inline-block;
+  }
+  
+  button:hover {
+    background: var(--primary);
+  }
+  

@@ -2,21 +2,91 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+/* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
 
+/* Theme Variables */
+:root {
+  --background: #ECEFF4;
+  --foreground: #171717;
+  --primary: #2C3E50;
+  --secondary: #ECEFF4;
+  --accent: #1C2833;
+}
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --primary: #1C2833;
+    --secondary: #2C3E50;
+    --accent: #ECEFF4;
   }
 }
 
+/* Global Styles */
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Playfair Display', serif;
+  background-color: #ECEFF4;
+  color: #333333;
+}
+
+html, body {
+  background-color: var(--background);
+  background-image: url("/images/white-marble-bg.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Navbar */
+nav {
+  background: var(--primary);
+  color: white;
+  height: 60px; /* Adjust height */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+/* Navbar Links */
+nav a {
+  margin: 0 15px;
+  color: white;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: var(--secondary);
+  text-decoration: underline;
+}
+
+/* Footer */
+/* Footer */
+footer {
+  width: 100%;
+  background: var(--primary);
+  color: white;
+  text-align: center;
+  padding: 0px 0; /* Reduce height */
+  font-size: 0.8rem; /* Reduce text size slightly */
+  margin-top: auto;
+  position: bottom;
+  bottom: 0;
+}
+
+
+.ai-chat-container {
+  position: absolute; /* Changed from fixed */
+  top: 4rem; /* Adjusts placement under navbar */
+  right: 2rem; /* Keeps it to the right */
+  width: 280px;
+  max-width: 300px;
+  height: auto;
+  font-size: 14px;
+  z-index: 999;
 }

@@ -1,0 +1,28 @@
+[
+  {
+    "id": "medical-ai-diagnostic",
+    "title": "Medical AI Diagnostic Tool",
+    "description": "A machine learning model that identifies anomalies in medical imaging data with 95% accuracy.",
+    "technologies": ["Python", "TensorFlow", "PyTorch", "scikit-learn"],
+    "imageUrl": "/images/brain-mri.png",
+    "demoUrl": "https://demo.example.com",
+    "githubUrl": "https://github.com/techthumb1/image-based-diagnostic-assistant",
+    "featured": true,
+    "date": "2024-12-15",
+    "category": "ai"
+  },
+  {
+    "id": "brain-segmentation",
+    "title": "Brain MRI Segmentation",
+    "description": "AI-powered segmentation model for brain MRI analysis.",
+    "imageUrl": "/images/brain-predictions.png",
+    "link": "https://github.com/user/brain-mri-segmentation"
+  },
+  {
+    "id": "fantasy-optimizer",
+    "title": "Fantasy Sports Optimizer",
+    "description": "ML-based optimizer for fantasy sports team selection.",
+    "imageUrl": "/images/fantasy-optimizer.png",
+    "link": "https://github.com/user/fantasy-optimizer"
+  }
+]

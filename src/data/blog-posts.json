@@ -1,0 +1,19 @@
+[
+    {
+      "slug": "ai-in-healthcare",
+      "title": "AI in Healthcare",
+      "description": "How AI is transforming medical diagnostics.",
+      "date": "March 6, 2025",
+      "imageUrl": "/assets/images/ai-healthcare.jpg",
+      "content": "AI is playing a key role in improving medical diagnostics..."
+    },
+    {
+      "slug": "future-of-ml",
+      "title": "The Future of Machine Learning",
+      "description": "A deep dive into the latest advancements in ML.",
+      "date": "March 7, 2025",
+      "imageUrl": "/assets/images/ml-future.jpg",
+      "content": "Machine learning is evolving at a rapid pace..."
+    }
+  ]
+  
