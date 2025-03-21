@@ -170,8 +170,10 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 node_modules/
+.next/
+.next/cache/
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
-```
+```.DS_Store
