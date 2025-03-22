@@ -9,12 +9,18 @@ interface BlogPost {
   content: string;
 }
 
-export default function BlogPostPage({ params }: { params: { slug: string } }) {
+interface PageProps {
+  params: {
+    slug: string;
+  };
+}
+
+export default function BlogPostPage({ params }: PageProps) {
   const [post, setPost] = useState<BlogPost | null>(null);
 
   useEffect(() => {
     async function fetchPost() {
-      const res = await fetch(`/api/blog`);
+      const res = await fetch("/api/blog");
       const data: BlogPost[] = await res.json();
       const foundPost = data.find((p) => p.slug === params.slug);
       setPost(foundPost || null);
