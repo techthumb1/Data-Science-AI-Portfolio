@@ -10,7 +10,7 @@ export default function ProjectList() {
           project={{
             title: project.title,
             description: project.description,
-            link: project.demoUrl || "",
+            link: project.githubUrl || "",
             image: project.imageUrl
           }} 
         />

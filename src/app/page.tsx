@@ -25,7 +25,6 @@ export default function HomePage() {
       </section>
 
       {/* Featured Projects Section */}
-      {/* Featured Projects Section */}
       <section className="bg-[#F8F9FA] py-16">
         <div className="container mx-auto px-6">
           <h3 className="text-3xl font-semibold text-[#2C3E50] text-center">Featured Projects</h3>

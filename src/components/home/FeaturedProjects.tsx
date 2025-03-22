@@ -9,7 +9,7 @@ export default function FeaturedProjects() {
         <div key={project.id} className="p-6 bg-gray-100 rounded">
           <h3 className="text-lg font-semibold">{project.title}</h3>
           <p className="mt-2">{project.description}</p>
-          <a href={project.demoUrl} className="mt-2 inline-block text-blue-600">
+          <a href={project.githubUrl} className="mt-2 inline-block text-blue-600">
             View Project
           </a>
         </div>
