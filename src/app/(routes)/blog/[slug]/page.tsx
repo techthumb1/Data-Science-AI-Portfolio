@@ -1,19 +1,13 @@
 import { notFound } from "next/navigation";
 import blogPosts from "@/data/blog-posts.json";
 
-interface PageProps {
-  params: {
-    slug: string;
-  };
-}
-
 // ✅ SEO Metadata
-export async function generateMetadata({ params }: PageProps) {
+export async function generateMetadata({ params }: { params: { slug: string } }) {
   const post = blogPosts.find((p) => p.slug === params.slug);
 
   return {
     title: post?.title ?? "Blog",
-    description: post?.description ?? "Read insights and updates on AI, Data Science, and Software Engineering.",
+    description: post?.description ?? "Insights and updates on AI, Data Science, and Software Engineering.",
     openGraph: {
       title: post?.title,
       description: post?.description,
@@ -29,8 +23,8 @@ export async function generateMetadata({ params }: PageProps) {
   };
 }
 
-// ✅ Blog Post Page
-export default function BlogPostPage({ params }: PageProps) {
+// ✅ Blog Post Page Component
+export default function BlogPostPage({ params }: { params: { slug: string } }) {
   const post = blogPosts.find((p) => p.slug === params.slug);
 
   if (!post) notFound();
