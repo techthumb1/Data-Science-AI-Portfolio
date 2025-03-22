@@ -1,41 +1,15 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import Link from "next/link";
-
-interface Project {
-  id: string;
-  title: string;
-  description: string;
-}
+import projects from "@/data/projects.json"; // ✅ Directly import the JSON file
+import TitleDivider from "@/components/TitleDivider";
 
 export default function ProjectsPage() {
-  const [projects, setProjects] = useState<Project[]>([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
-
-  useEffect(() => {
-    async function fetchProjects() {
-      try {
-        const res = await fetch("/api/projects"); // Ensure API is working
-        if (!res.ok) throw new Error("Failed to fetch projects");
-        const data: Project[] = await res.json();
-        setProjects(data);
-      } catch (err) {
-        setError((err as Error).message);
-      } finally {
-        setLoading(false);
-      }
-    }
-    fetchProjects();
-  }, []);
-
-  if (loading) return <p className="text-center text-gray-700">Loading projects...</p>;
-  if (error) return <p className="text-center text-red-600">Error: {error}</p>;
-
   return (
     <div className="container mx-auto py-12 px-6">
-      <h1 className="text-5xl font-bold text-center mb-8 text-gray-900 tracking-wide">Projects</h1>
+      <h1 className="text-5xl font-bold text-center mb-8 text-gray-900 tracking-wide">
+        Projects
+      </h1>
+      <TitleDivider />
 
       <div className="divide-y divide-gray-300">
         {projects.map((project) => (
@@ -44,11 +18,31 @@ export default function ProjectsPage() {
               <h2 className="text-2xl font-semibold">{project.title}</h2>
               <p className="text-gray-700">{project.description}</p>
             </div>
-            <Link href={`/projects/${project.id}`} className="text-blue-500 font-medium">
-              View Project →
-            </Link>
+            {project.githubUrl && (
+  <a
+    href={project.githubUrl}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-blue-500 font-medium"
+  >
+    View Project →
+  </a>
+)}
+
           </div>
         ))}
+      </div>
+
+      {/* GitHub Button */}
+      <div className="text-center mt-12">
+        <a
+          href="https://github.com/techthumb1"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block bg-[#1C2833] text-white px-6 py-3 rounded-lg shadow-md hover:bg-[#2C3E50] transition"
+        >
+          Check out more on my GitHub →
+        </a>
       </div>
     </div>
   );

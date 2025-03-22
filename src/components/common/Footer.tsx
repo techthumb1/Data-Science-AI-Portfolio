@@ -12,7 +12,7 @@ export default function Footer() {
           <a href="https://linkedin.com/in/jasrobinson12" target="_blank" rel="noopener noreferrer">
             <Image src="/assets/icons/linkedin.png" width={24} height={24} alt="LinkedIn" />
           </a>
-          <a href="https://twitter.com/jasrob_" target="_blank" rel="noopener noreferrer">
+          <a href="https://twitter.com/jasonrob_" target="_blank" rel="noopener noreferrer">
             <Image src="/assets/icons/twitter.png" width={24} height={24} alt="Twitter" />
           </a>
         </div>

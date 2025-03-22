@@ -1,28 +1,89 @@
 [
   {
     "id": "medical-ai-diagnostic",
-    "title": "Medical AI Diagnostic Tool",
-    "description": "A machine learning model that identifies anomalies in medical imaging data with 95% accuracy.",
-    "technologies": ["Python", "TensorFlow", "PyTorch", "scikit-learn"],
-    "imageUrl": "/images/brain-mri.png",
-    "demoUrl": "https://demo.example.com",
+    "title": "Image-Based Diagnostic Assistant",
+    "description": "AI-powered classification and segmentation model for brain MRI analysis.",
     "githubUrl": "https://github.com/techthumb1/image-based-diagnostic-assistant",
     "featured": true,
     "date": "2024-12-15",
     "category": "ai"
   },
   {
-    "id": "brain-segmentation",
-    "title": "Brain MRI Segmentation",
-    "description": "AI-powered segmentation model for brain MRI analysis.",
-    "imageUrl": "/images/brain-predictions.png",
-    "link": "https://github.com/user/brain-mri-segmentation"
+    "id": "sterio",
+    "title": "SterIO",
+    "description": "AI-symphony creator changing how music is composed and produced.",
+    "githubUrl": "https://github.com/techthumb1/sterio"
   },
   {
     "id": "fantasy-optimizer",
     "title": "Fantasy Sports Optimizer",
     "description": "ML-based optimizer for fantasy sports team selection.",
-    "imageUrl": "/images/fantasy-optimizer.png",
-    "link": "https://github.com/user/fantasy-optimizer"
+    "githubUrl": "https://github.com/techthumb1/Fantasy-Sports-Optimizer"
+  },
+  {
+    "id": "ml-matrix",
+    "title": "ML Matrix",
+    "description": "Showcasing AI and Data Science projects.",
+    "githubUrl": "https://github.com/techthumb1/ML-Matrix"
+  },
+  {
+    "id": "health-metrics-tracker",
+    "title": "Health Metrics Tracker",
+    "description": "Tracking health metrics using AI.",
+    "githubUrl": "https://github.com/techthumb1/Health-Metrics-Tracker"
+  },
+  {
+    "id": "virtual-healthcare",
+    "title": "Virtual Healthcare Companion",
+    "description": "AI-powered health and wellness platform.",
+    "githubUrl": "https://github.com/techthumb1/Virtual-Healthcare-Companion-App"
+  },
+  {
+    "id": "wordsage",
+    "title": "WordSage",
+    "description": "Secure and AI-powered medical data management.",
+    "githubUrl": "https://github.com/techthumb1/Wordsage"
+  },
+  {
+    "id": "bls-project",
+    "title": "Bureau of Labor Statistics Project",
+    "description": "Data analysis and visualization of labor statistics.",
+    "githubUrl": "https://github.com/techthumb1/Bureau-Labor-Statistics-Project"
+  },
+  {
+    "id": "skill-place-market-swap",
+    "title": "Skill Place Market Swap",
+    "description": "Connects individuals who want to learn new skills with those who can teach them.",
+    "githubUrl": "https://github.com/techthumb1/Skill-Place-Market-Swap"
+  },
+  {
+    "id": "stock-crypto-trader",
+    "title": "Stock and Crypto Trader",
+    "description": "Trading system for stocks and cryptocurrencies.",
+    "githubUrl": "https://github.com/techthumb1/Stock-and-Crypto-Trader"
+  },
+  {
+    "id": "real-time-human-detection",
+    "title": "Real-Time Human Detection and Counting System",
+    "description": "Exploring AI models in medical applications.",
+    "githubUrl": "https://github.com/techthumb1/Real-Time-Human-Detection"
+  },
+  {
+    "id": "drug-safety-ai",
+    "title": "Drug Safety Monitoring Application",
+    "description": "A real-time application that scrapes public health databases, employs NLP.",
+    "githubUrl": "https://github.com/techthumb1/Drug-Safety-Monitoring-Application"
+  },
+  {
+    "id": "insight-gen",
+    "title": "Insight Gen",
+    "description": "Content generator for Workshops, Tutorials, Research Summaries.",
+    "githubUrl": "https://github.com/techthumb1/Insight-Gen"
+  },
+  {
+    "id": "ds-ai-portfolio",
+    "title": "Data Science AI Portfolio",
+    "description": "Portfolio showcasing AI and ML projects.",
+    "githubUrl": "https://github.com/techthumb1/Data-Science-AI-Portfolio"
   }
 ]
