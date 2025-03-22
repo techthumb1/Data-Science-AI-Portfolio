@@ -1,3 +1,4 @@
+"use client";
 import { useState } from "react";
 
 export default function Dropdown({ options, onSelect }: { options: string[]; onSelect: (option: string) => void }) {

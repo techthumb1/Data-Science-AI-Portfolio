@@ -1,3 +1,4 @@
+"use client";
 import Link from "next/link";
 import navigation from "@/data/navigation.json";
 import { useState } from "react";

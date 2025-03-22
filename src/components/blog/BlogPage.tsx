@@ -8,8 +8,8 @@ const post = {
 
 <Image 
   src={post.image} 
-  width={300}  // Set a fixed width
-  height={180} // Set a fixed height
+  width={300}  
+  height={180} 
   alt={post.title} 
   className="rounded-lg shadow-md object-cover"
 />

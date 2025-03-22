@@ -1,3 +1,4 @@
+"use client";
 import { useState } from "react";
 
 export default function ProjectSearch({ onSearch }: { onSearch: (query: string) => void }) {
