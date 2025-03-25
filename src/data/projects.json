@@ -68,7 +68,7 @@
   {
     "id": "wordsage",
     "title": "WordSage",
-    "description": "Secure and AI-powered medical data management.",
+    "description": "LLM powered word vocabulary assistant.",
     "technologies": ["Next.js", "AI", "MongoDB"],
     "imageUrl": "/images/wordsage.png",
     "githubUrl": "https://github.com/techthumb1/Wordsage",
@@ -112,7 +112,7 @@
   {
     "id": "real-time-human-detection",
     "title": "Real-Time Human Detection and Counting System",
-    "description": "Exploring AI models in medical applications.",
+    "description": "AI-powered system for real-time human detection and counting.",
     "technologies": ["YOLOv8", "OpenCV", "Torch"],
     "imageUrl": "/images/human-detection.png",
     "githubUrl": "https://github.com/techthumb1/Real-Time-Human-Detection",
@@ -145,7 +145,7 @@
   {
     "id": "ds-ai-portfolio",
     "title": "Data Science AI Portfolio",
-    "description": "Portfolio showcasing AI and ML projects.",
+    "description": "Portfolio showcasing Data Science, ML, and AI projects.",
     "technologies": ["Next.js", "Tailwind CSS", "TypeScript"],
     "imageUrl": "/images/portfolio.png",
     "githubUrl": "https://github.com/techthumb1/Data-Science-AI-Portfolio",
