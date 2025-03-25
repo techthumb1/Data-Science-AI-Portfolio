@@ -9,7 +9,7 @@ export default function BlogPage() {
     id: string;
     title: string;
     description: string;
-    slug: string;
+    slugs: string;
     image: string;
   }
 
@@ -57,7 +57,7 @@ export default function BlogPage() {
             <div>
               <h2 className="text-2xl font-semibold text-gray-800">{post.title}</h2>
               <p className="text-gray-700 mt-2">{post.description}</p>
-              <Link href={`/blog/${post.slug}`} className="text-blue-600 mt-3 inline-block">
+              <Link href={`/blog/${post.slugs}`} className="text-blue-600 mt-3 inline-block">
                 Read More →
               </Link>
             </div>
