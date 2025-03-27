@@ -4,6 +4,7 @@ import Image from 'next/image';
 import TitleDivider from '@/components/TitleDivider';
 import AIChat from '@/components/AIChat';
 
+
 export default function ContactPage() {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
 
@@ -12,10 +13,31 @@ export default function ContactPage() {
     setFormData({ ...formData, [name]: value });
   };
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const [status, setStatus] = useState("");
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    // Handle form submission logic here
+    setStatus("Sending...");
+  
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+  
+      if (res.ok) {
+        setStatus("Message sent successfully!");
+        setFormData({ name: "", email: "", message: "" });
+      } else {
+        setStatus("Failed to send message.");
+      }
+    } catch (err) {
+      console.error("Form error:", err);
+      setStatus("Something went wrong. Try again.");
+    }
   };
+  
     return (
       <div className="container mx-auto max-w-3xl py-12 px-6 flex flex-col items-center relative">
         {/* Left Section: Contact Form */}
@@ -77,6 +99,13 @@ export default function ContactPage() {
               Send Message
             </button>
           </form>
+
+          {/* Status Message */}
+          {status && (
+            <p className="mt-4 text-center text-sm font-semibold text-gray-700">
+              {status}
+            </p>
+          )}
   
           {/* Contact Info */}
           <div className="mt-10 text-center">
