@@ -25,18 +25,29 @@ export default function AboutPage() {
         {/* About Text */}
         <div className="flex-1 text-left">
           <p className="text-lg text-gray-700 leading-relaxed">
-            I am a Senior Data Analyst, specializing in 
-            AI, Machine Learning, and Data Science. With expertise in 
-            deep learning, data engineering, and analytics. Much of my work involves developing 
-            end-to-end AI-driven applications, constructing model deployment pipelines, 
-            and solutions that are effective, efficient, and provide data-driven decision-making   .
+          I am a Senior Data Analyst with a passion for building AI 
+          systems that make a real difference, especially in healthcare 
+          and finance, where better data can directly improve lives and 
+          outcomes. I specialize in end-to-end data products, from designing 
+          robust pipelines to deploying machine learning models in production.
           </p>
           <p className="text-lg text-gray-700 leading-relaxed mt-4">
-            My experience spans many industries, including Healthcare AI, Finance, 
-            and Sports Analytics, and I continuously strive to leverage AI for 
-            impactful solutions. Whether optimizing complex 
-            data pipelines or building AI-powered tools, my focus remains on 
-            innovation, scalability, and high performance.
+          My experience spans healthcare, finance, and sports analytics, where 
+          I have applied deep learning, forecasting, NLP, and MLOps to solve 
+          real-world problems. I am especially focused on automation, privacy-aware 
+          AI, and real-time analytics that support decision-making within an environment.
+          </p>
+          <p className="text-lg text-gray-700 leading-relaxed mt-4">
+            I work primarily with Python, SQL, TensorFlow, Next.js, and cloud 
+            platforms like AWS and GCP. My approach is rooted in performance, 
+            clarity, and impact.
+          </p>
+          
+          <p className="text-lg text-gray-700 leading-relaxed mt-4">
+            <em>“If it doesn’t drive a decision or automate a task, it is not done yet.”</em>
+          </p>
+          <p className="text-lg text-gray-700 leading-relaxed mt-4">
+            That is the lens I bring to every project, or solution that I strive to solve—practical, usable outcomes.
           </p>
 
           {/* Download Resume Button */}
