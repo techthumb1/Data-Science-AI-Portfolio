@@ -12,25 +12,29 @@ export default function ProjectsPage() {
       <TitleDivider />
 
       <div className="divide-y divide-gray-300">
-        {projects.map((project) => (
-          <div key={project.id} className="py-4 flex justify-between items-center">
-            <div>
-              <h2 className="text-2xl font-semibold">{project.title}</h2>
-              <p className="text-gray-700">{project.description}</p>
-            </div>
-            {project.githubUrl && (
-  <a
-    href={project.githubUrl}
-    target="_blank"
-    rel="noopener noreferrer"
-    className="text-blue-500 font-medium"
+      {projects.map((project) => (
+  <div
+    key={project.id}
+    className="py-4 border-b border-gray-300 flex flex-col sm:flex-row sm:justify-between sm:items-center gap-2"
   >
-    View Project →
-  </a>
-)}
+    <div>
+      <h2 className="text-2xl font-semibold">{project.title}</h2>
+      <p className="text-gray-700">{project.description}</p>
+    </div>
 
-          </div>
-        ))}
+    {project.githubUrl && (
+      <a
+        href={project.githubUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-500 font-medium whitespace-nowrap"
+      >
+        View Project →
+      </a>
+    )}
+  </div>
+))}
+
       </div>
 
       {/* GitHub Button */}

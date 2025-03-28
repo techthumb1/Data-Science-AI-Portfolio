@@ -2,7 +2,7 @@
   {
     "id": "medical-ai-diagnostic",
     "title": "Image-Based Diagnostic Assistant",
-    "description": "AI-powered computer vision project for brain MRI analysis.",
+    "description": "AI-powered computer vision application for brain MRI analysis.",
     "technologies": ["Python", "PyTorch", "MONAI", "FastAPI"],
     "imageUrl": "/images/brain-mri.png",
     "githubUrl": "https://github.com/techthumb1/image-based-diagnostic-assistant",
@@ -90,7 +90,7 @@
   {
     "id": "skill-place-market-swap",
     "title": "Skill Place Market Swap",
-    "description": "Learn new skills with those who can teach them.",
+    "description": "Connects individuals who want to learn new skills with those who can teach them.",
     "technologies": ["Node.js", "PostgreSQL", "Express"],
     "imageUrl": "/images/skill-swap.png",
     "githubUrl": "https://github.com/techthumb1/Skill-Place-Market-Swap",
@@ -123,7 +123,7 @@
   {
     "id": "drug-safety-ai",
     "title": "Drug Safety Monitoring",
-    "description": "A real-time application from public health databases, employs NLP.",
+    "description": "A real-time application from public health databases, employing NLP.",
     "technologies": ["NLP", "BeautifulSoup", "FastAPI"],
     "imageUrl": "/images/drug-safety.png",
     "githubUrl": "https://github.com/techthumb1/Drug-Safety-Monitoring-Application",
