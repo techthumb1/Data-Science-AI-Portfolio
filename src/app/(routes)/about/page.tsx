@@ -25,18 +25,18 @@ export default function AboutPage() {
         {/* About Text */}
         <div className="flex-1 text-left">
           <p className="text-lg text-gray-700 leading-relaxed">
-            I am a <strong>Senior Data Analyst</strong> specializing in 
-            <strong> AI, Machine Learning, and Data Science</strong>. I have expertise in 
-            <strong> deep learning, data engineering, and analytics</strong>, I work on developing 
-            <strong> end-to-end AI-driven applications</strong>, constructing model deployment pipelines, 
-            and solutions that are effective, efficient, and provide <strong>data-driven decision-making</strong>.
+            I am a Senior Data Analyst, specializing in 
+            AI, Machine Learning, and Data Science. With expertise in 
+            deep learning, data engineering, and analytics. Much of my work involves developing 
+            end-to-end AI-driven applications, constructing model deployment pipelines, 
+            and solutions that are effective, efficient, and provide data-driven decision-making   .
           </p>
           <p className="text-lg text-gray-700 leading-relaxed mt-4">
-            My experience spans multiple industries, including <strong>Healthcare AI, Finance, 
-            and Sports Analytics</strong>, and I continuously strive to 
-            <strong> leverage AI for impactful solutions</strong>. Whether optimizing complex 
+            My experience spans many industries, including Healthcare AI, Finance, 
+            and Sports Analytics, and I continuously strive to leverage AI for 
+            impactful solutions. Whether optimizing complex 
             data pipelines or building AI-powered tools, my focus remains on 
-            <strong> innovation, scalability, and high performance</strong>.
+            innovation, scalability, and high performance.
           </p>
 
           {/* Download Resume Button */}
