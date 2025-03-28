@@ -2,7 +2,7 @@
   {
     "id": "medical-ai-diagnostic",
     "title": "Image-Based Diagnostic Assistant",
-    "description": "AI-powered classification and segmentation model for brain MRI analysis.",
+    "description": "AI-powered computer vision project for brain MRI analysis.",
     "technologies": ["Python", "PyTorch", "MONAI", "FastAPI"],
     "imageUrl": "/images/brain-mri.png",
     "githubUrl": "https://github.com/techthumb1/image-based-diagnostic-assistant",
@@ -90,7 +90,7 @@
   {
     "id": "skill-place-market-swap",
     "title": "Skill Place Market Swap",
-    "description": "Connects individuals who want to learn new skills with those who can teach them.",
+    "description": "Learn new skills with those who can teach them.",
     "technologies": ["Node.js", "PostgreSQL", "Express"],
     "imageUrl": "/images/skill-swap.png",
     "githubUrl": "https://github.com/techthumb1/Skill-Place-Market-Swap",
@@ -111,8 +111,8 @@
   },
   {
     "id": "real-time-human-detection",
-    "title": "Real-Time Human Detection and Counting System",
-    "description": "AI-powered system for real-time human detection and counting.",
+    "title": "Real-Time Human Detection",
+    "description": "System for real-time human detection and counting.",
     "technologies": ["YOLOv8", "OpenCV", "Torch"],
     "imageUrl": "/images/human-detection.png",
     "githubUrl": "https://github.com/techthumb1/Real-Time-Human-Detection",
@@ -122,8 +122,8 @@
   },
   {
     "id": "drug-safety-ai",
-    "title": "Drug Safety Monitoring Application",
-    "description": "A real-time application that scrapes public health databases, employs NLP.",
+    "title": "Drug Safety Monitoring",
+    "description": "A real-time application from public health databases, employs NLP.",
     "technologies": ["NLP", "BeautifulSoup", "FastAPI"],
     "imageUrl": "/images/drug-safety.png",
     "githubUrl": "https://github.com/techthumb1/Drug-Safety-Monitoring-Application",
