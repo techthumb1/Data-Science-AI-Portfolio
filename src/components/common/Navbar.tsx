@@ -7,7 +7,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="relative bg-[#2C3E50] text-white py-4 shadow-md">
+    <nav className="relative bg-[#2C3E50] text-white py-4 shadow-md z-50">
       <div className="container mx-auto flex justify-between items-center px-4">
         {/* Logo & Name */}
         <div className="flex items-center gap-3">
@@ -36,7 +36,7 @@ export default function Navbar() {
 
       {/* Mobile Navigation Dropdown */}
       {open && (
-        <div className="md:hidden px-6 pt-2 pb-4 space-y-2 text-lg bg-[#2C3E50] absolute w-full">
+        <div className="md:hidden absolute top-full left-0 w-full bg-[#2C3E50] px-6 pt-2 pb-4 space-y-2 text-lg shadow-md z-40">
           <Link href="/" className="block hover:text-[#F8F9FA] py-2" onClick={() => setOpen(false)}>Home</Link>
           <Link href="/about" className="block hover:text-[#F8F9FA] py-2" onClick={() => setOpen(false)}>About</Link>
           <Link href="/projects" className="block hover:text-[#F8F9FA] py-2" onClick={() => setOpen(false)}>Projects</Link>
