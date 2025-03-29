@@ -51,7 +51,6 @@ export default function ContactPage() {
           </p>
   
           {/* Contact Form */}
-          {/* Contact Form */}
           <form onSubmit={handleSubmit} className="bg-gray-800 shadow-lg rounded-lg p-6 border border-gray-300">
             <div className="mb-4">
               <label className="block text-lg font-semibold mb-2 text-white">Name</label>
@@ -125,9 +124,9 @@ export default function ContactPage() {
         </div>
   
         {/* Right Section: AIChat - Fixed Under Navbar */}
-        <div className="hidden md:block w-1/3">
-          <div className="sticky top-20 right-8">
-           <AIChat />
+        <div className="w-full flex justify-center mt-10">
+          <div className="w-[250px] mx-auto">
+            <AIChat />
           </div>
         </div>
       </div>
