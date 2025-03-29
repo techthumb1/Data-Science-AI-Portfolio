@@ -39,8 +39,9 @@ export default function AboutPage() {
           </p>
           <p className="text-lg text-gray-700 leading-relaxed mt-4">
             I work primarily with Python, SQL, TensorFlow, Next.js, and cloud 
-            platforms like AWS and GCP. My approach is rooted in performance, 
-            clarity, and impact.
+            platforms like AWS and GCP. However, I consider myself to be versatile
+            in many technologies. My approach can always be summed up in three factors: 
+            performance, clarity, and impact.
           </p>
           
           <p className="text-lg text-gray-700 leading-relaxed mt-4">
