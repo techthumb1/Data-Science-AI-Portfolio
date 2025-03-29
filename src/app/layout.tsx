@@ -17,7 +17,13 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Jason Robinson - Portfolio",
   description: "Showcasing Data Science, AI, & Analytics Excellence",
-};
+    icons: {
+      icon: [
+        { url: '/favicon.svg', type: 'image/svg+xml' },
+        { url: "/favicon.ico", sizes: "any", type: "image/x-icon" },
+      ],
+    },
+  };
 
 export default function RootLayout({
   children,
