@@ -20,10 +20,10 @@ export const metadata: Metadata = {
   description: "Showcasing Data Science, AI, & Analytics Excellence",
   icons: {
     icon: [
-      { url: "/jr-favicon.ico", type: "image/x-icon", sizes: "any" }, // fallback
+      { url: "/favicon.ico", type: "image/x-icon", sizes: "any" }, // fallback
       { url: "/jr-logo.svg", type: "image/svg+xml" }, // optional SVG
     ],
-    apple: "/jr-favicon.ico",
+    apple: "/favicon.ico",
     shortcut: "/jr-favicon.ico",
   },
 };
