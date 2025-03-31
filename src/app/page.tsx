@@ -44,7 +44,7 @@ export default function HomePage() {
           An AI model identifying medical anomalies with precision.
         </p>
         <Link 
-          href="https://github.com/techthumb1/Image-Based-Diagnostic-Assistant" 
+          href="https://github.com/techthumb1/Image-Based-Diagnostic-Assistant/tree/altversion"
           target="_blank"
           rel="noopener noreferrer"
           className="text-[#1C2833] font-medium mt-4 block"
