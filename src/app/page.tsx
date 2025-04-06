@@ -67,7 +67,7 @@ export default function HomePage() {
           AI-driven analysis for genetic risk predictions and mutations.
         </p>
         <Link 
-          href="https://github.com/techthumb1/Analytics-Projects/blob/main/Genomic_Analysis_and_Prediction.ipynb"
+          href="https://github.com/techthumb1/Analytics-Projects/blob/main/DNN_Genomic_Analysis_and_Prediction%7CAUC_0_98%7C.ipynb"
           target="_blank"
           rel="noopener noreferrer"
           className="text-[#1C2833] font-medium mt-4 block"
