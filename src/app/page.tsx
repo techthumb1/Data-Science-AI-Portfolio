@@ -56,18 +56,18 @@ export default function HomePage() {
       {/* Second Project */}
       <div className="bg-white shadow-md p-6 rounded-lg flex flex-col">
         <Image 
-          src="/images/dna.png" 
+          src="/images/kgnn-ddi.png" 
           width={400} 
           height={250} 
           alt="Project Image" 
           className="rounded-lg object-cover w-full h-[250px]" 
         />
-        <h4 className="text-xl font-semibold mt-4">Genomic Data Analysis</h4>
+        <h4 className="text-xl font-semibold mt-4">Knowledge Graph DDI Prediction</h4>
         <p className="text-sm text-gray-700 mt-2 flex-grow">
-          AI-driven analysis for genetic risk predictions and mutations.
+        Web application for predicting drug-drug interactions DDIs using KGNNs.
         </p>
         <Link 
-          href="https://github.com/techthumb1/Analytics-Projects/blob/main/dnn-genomic-analysis-and-prediction-auc-0-98.ipynb"
+          href="https://github.com/techthumb1/KGNN-Drug-Drug-Interaction-DDI-Prediction"
           target="_blank"
           rel="noopener noreferrer"
           className="text-[#1C2833] font-medium mt-4 block"
