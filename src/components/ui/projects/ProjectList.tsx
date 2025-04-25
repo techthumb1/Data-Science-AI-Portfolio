@@ -1,6 +1,7 @@
 import projects from "@/data/projects.json";
 import ProjectCard from "./ProjectCard";
 
+
 export default function ProjectList() {
   return (
     <div className="grid md:grid-cols-2 gap-6">
@@ -11,7 +12,7 @@ export default function ProjectList() {
             title: project.title,
             description: project.description,
             link: project.githubUrl || "",
-            image: project.imageUrl
+            image: project.imageUrl || ""
           }} 
         />
       ))}
