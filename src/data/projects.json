@@ -15,7 +15,7 @@
     "title": "Genomic Data Analysis",
     "description": "AI-driven analysis for predicting genetic risk factors and identifying mutations from genomic datasets.",
     "techStack": ["Python", "scikit-learn", "Pandas", "NumPy", "Matplotlib", "Deep Learning"],
-    "image": "/images/dna.png",
+    "imageURL": "/images/dna.png",
     "githubUrl": "https://github.com/techthumb1/Analytics-Projects/blob/main/DNN_Genomic_Analysis_and_Prediction%7CAUC_0_98%7C.ipynb",
     "tags": ["AI", "Genomics", "Bioinformatics", "Prediction", "HealthTech"]
   },
